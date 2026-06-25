@@ -1,17 +1,7 @@
 import countries from "../data/countries";
-import {
-	findFlagUrlByCountryName,
-	findFlagUrlByNationality,
-	findFlagUrlByIso2Code,
-	findFlagUrlByIso3Code,
-	getMapFlagUrlByIso3Code,
-} from "./api";
+import { findFlagUrlByIso2Code } from "./api";
 
 export {
 	countries,
-	getMapFlagUrlByIso3Code,
-	findFlagUrlByCountryName,
-	findFlagUrlByNationality,
-	findFlagUrlByIso2Code,
-	findFlagUrlByIso3Code,
+	findFlagUrlByIso2Code
 };

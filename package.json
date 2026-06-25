@@ -6,7 +6,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "clean" : "rm -r ./dist",
-    "build": "tsup"
+    "build": "tsup",
+    "build:single": "tsup --config tsup.single.config.ts"
   },
   "repository": {
 		"type": "git",
